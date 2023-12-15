@@ -7,13 +7,13 @@ class Animal {
         this.especie = especie;
     }
     respirar() {
-        console.log("Respirando...");
+        console.log(`El ${this.especie} esta respirando...`);
     }
 }
 
 class Perro extends Animal {
     ladrar() {
-        console.log("Guau!");
+        console.log(`El ${this.especie} hizo Guau!`);
     }
 }
 
